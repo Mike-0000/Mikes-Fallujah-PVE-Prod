@@ -1,0 +1,24 @@
+GameProject {
+ ID "MikesFallujahPVE"
+ GUID "61FA0C31DE4B7D01"
+ TITLE "Mikes Fallujah PVE"
+ Dependencies {
+  "58D0FB3206B6F859" "5F04F5A0383C44B1" "61B514B96692C049" "5D84C738432BFE6A" "5E1735DB431EE29B" "5EDC6DEEFCFDE088" "60B524F7A5AE96A8"
+ }
+ Configurations {
+  GameProjectConfig PC {
+  }
+  GameProjectConfig XBOX_ONE {
+  }
+  GameProjectConfig XBOX_SERIES {
+  }
+  GameProjectConfig PS4 {
+  }
+  GameProjectConfig PS5 {
+  }
+  GameProjectConfig HEADLESS {
+  }
+  GameProjectConfig Xbox {
+  }
+ }
+}
