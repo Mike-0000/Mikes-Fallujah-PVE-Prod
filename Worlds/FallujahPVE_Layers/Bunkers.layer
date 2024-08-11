@@ -1,0 +1,12 @@
+$grp GenericEntity : "{7492BAA88AFCEDCE}Prefabs/Compositions/Slotted/SlotFlatSmall/Bunker_S_USSR_01.et" {
+ CalvaryHillBunker {
+  coords 3543.632 180.206 5811.623
+  angleY 47.848
+  angleZ 2.146
+ }
+ CalvaryHillBunker2 {
+  coords 1790.125 33.298 3060.262
+  angleY 47.848
+  angleZ 2.146
+ }
+}

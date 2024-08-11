@@ -1,0 +1,90 @@
+$grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+ Civ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType TEAM_CIV_SMALL
+   }
+  }
+  coords 1693.064 9.839 2490.712
+ }
+ Civ2 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType TEAM_CIV_MEDIUM
+   }
+  }
+  coords 1984.349 8.157 2062.797
+ }
+ Civ3 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType TEAM_CIV_MEDIUM
+   }
+  }
+  coords 2384.884 8.188 1440.907
+ }
+ Civ4 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType TEAM_CIV_MEDIUM
+   }
+  }
+  coords 2154.778 8.156 1355.55
+ }
+ Civ5 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType TEAM_CIV_MEDIUM
+   }
+  }
+  coords 1664.049 8.307 1974.093
+ }
+ Civ6 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType TEAM_CIV_SMALL
+   }
+  }
+  coords 1884.393 8.156 2380.556
+ }
+ Civ7 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType TEAM_CIV_MEDIUM
+   }
+  }
+  coords 772.379 8.156 3548.401
+ }
+ Civ8 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType TEAM_CIV_MEDIUM
+   }
+  }
+  coords 417.458 8.156 603.384
+ }
+ Civ9 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType TEAM_CIV_SMALL
+   }
+  }
+  coords 2118.938 4.607 345.931
+ }
+ Civ10 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType TEAM_CIV_MEDIUM
+   }
+  }
+  coords 1723.203 8.157 1577.155
+ }
+ Civ11 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType TEAM_CIV_MEDIUM
+   }
+  }
+  coords 1258.402 3.486 1686.444
+ }
+}

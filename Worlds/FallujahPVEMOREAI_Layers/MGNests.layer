@@ -1,0 +1,32 @@
+$grp GenericEntity : "{16148BF23770F1D3}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_S_USSR_02.et" {
+ {
+  coords 1827.715 19.917 2940.26
+  angleY 59.002
+  {
+   GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_eGroupType TEAM_MG
+     }
+    }
+    coords 2.176 0.112 -1.151
+    angleY -59.002
+   }
+  }
+ }
+ {
+  coords 1727.774 24.607 2919.675
+  angleY -11.733
+  {
+   GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_eGroupType TEAM_MG
+     }
+    }
+    coords 2.176 0.112 -1.151
+    angleY -59.002
+   }
+  }
+ }
+}

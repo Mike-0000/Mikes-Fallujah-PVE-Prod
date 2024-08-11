@@ -1,0 +1,650 @@
+$grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ BaseCampMarjah {
+  components {
+   SCR_CampaignBuildingProviderComponent "{5CA897160F09AA9F}" {
+    m_fBuildingRadius 175
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBuildingIconImageset "{F7E8D4834A3AFF2F}UI/Imagesets/Conflict/conflict-icons-bw.imageset"
+    m_bIsControlPoint 1
+    m_bDisableWhenUnusedAsHQ 0
+    m_sBaseName "Camp Marjah"
+    m_sBaseNameUpper "CAMP MARJAH"
+    m_sMapLocationName "Camp Marjah"
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 150
+    m_fMaximumSeizingTime 180
+    m_fMinimumSeizingTime 80
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1500
+     }
+    }
+   }
+  }
+  coords 1744.77 8.156 2198.599
+  angleY -1.734
+ }
+ BaseCollegeOfMedicine {
+  components {
+   SCR_CampaignBuildingProviderComponent "{5CA897160F09AA9F}" {
+    m_fBuildingRadius 150
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBuildingIconImageset "{F7E8D4834A3AFF2F}UI/Imagesets/Conflict/conflict-icons-bw.imageset"
+    m_bIsControlPoint 1
+    m_bDisableWhenUnusedAsHQ 0
+    m_sBaseName "College of Medicine"
+    m_sBaseNameUpper "COLLEGE OF MEDICINE"
+    m_sMapLocationName "College of Medicine"
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 125
+    m_fMaximumSeizingTime 160
+    m_fMinimumSeizingTime 60
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1500
+     }
+    }
+   }
+  }
+  coords 2154.236 8.156 2092.929
+  angleY -94.856
+ }
+ BaseEmbassy {
+  components {
+   SCR_CampaignBuildingProviderComponent "{5CA897160F09AA9F}" {
+    m_fBuildingRadius 125
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBuildingIconImageset "{F7E8D4834A3AFF2F}UI/Imagesets/Conflict/conflict-icons-bw.imageset"
+    m_bIsControlPoint 1
+    m_bDisableWhenUnusedAsHQ 0
+    m_sBaseName "Embassy"
+    m_sBaseNameUpper "EMBASSY"
+    m_sMapLocationName "Embassy"
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 100
+    m_fMaximumSeizingTime 180
+    m_fMinimumSeizingTime 60
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1500
+     }
+    }
+   }
+  }
+  coords 2447.204 8.281 1897.208
+  angleY 90.794
+ }
+ BaseAlTabiahFarm {
+  components {
+   SCR_CampaignBuildingProviderComponent "{5CA897160F09AA9F}" {
+    m_fBuildingRadius 225
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBuildingIconImageset "{F7E8D4834A3AFF2F}UI/Imagesets/Conflict/conflict-icons-bw.imageset"
+    m_bIsControlPoint 1
+    m_bDisableWhenUnusedAsHQ 0
+    m_sBaseName "Al-Tabiah Farm"
+    m_sBaseNameUpper "AL TABIAH FARM"
+    m_sMapLocationName "Al-Tabiah Farm"
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 200
+    m_fMaximumSeizingTime 160
+    m_fMinimumSeizingTime 60
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1500
+     }
+    }
+   }
+  }
+  coords 2559.584 14.445 918.663
+  angleY 0.084
+  {
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords 0 0.001 0
+   }
+  }
+ }
+ BaseFortFreedom {
+  components {
+   SCR_CampaignBuildingProviderComponent "{5CA897160F09AA9F}" {
+    m_fBuildingRadius 125
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBuildingIconImageset "{F7E8D4834A3AFF2F}UI/Imagesets/Conflict/conflict-icons-bw.imageset"
+    m_bIsControlPoint 1
+    m_bDisableWhenUnusedAsHQ 0
+    m_sBaseName "Fort Freedom"
+    m_sBaseNameUpper "FORT FREEDOM"
+    m_sMapLocationName "Fort Freedom"
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 100
+    m_fMaximumSeizingTime 180
+    m_fMinimumSeizingTime 60
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1500
+     }
+    }
+   }
+  }
+  coords 3284.235 10.253 762.156
+  angleY -123.708
+ }
+ BaseHumanitarianBase {
+  components {
+   SCR_CampaignBuildingProviderComponent "{5CA897160F09AA9F}" {
+    m_fBuildingRadius 125
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBuildingIconImageset "{F7E8D4834A3AFF2F}UI/Imagesets/Conflict/conflict-icons-bw.imageset"
+    m_bIsControlPoint 1
+    m_bDisableWhenUnusedAsHQ 0
+    m_sBaseName "Humanitarian Base"
+    m_sBaseNameUpper "HUMANITARIAN BASE"
+    m_sMapLocationName "Humanitarian Base"
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 100
+    m_fMaximumSeizingTime 180
+    m_fMinimumSeizingTime 60
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1500
+     }
+    }
+   }
+  }
+  coords 3679.68 9.969 1401.595
+  angleY 39.952
+ }
+ BaseKarbala {
+  components {
+   SCR_CampaignBuildingProviderComponent "{5CA897160F09AA9F}" {
+    m_fBuildingRadius 150
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBuildingIconImageset "{F7E8D4834A3AFF2F}UI/Imagesets/Conflict/conflict-icons-bw.imageset"
+    m_bIsControlPoint 1
+    m_bDisableWhenUnusedAsHQ 0
+    m_sBaseName "Karbala"
+    m_sBaseNameUpper "KARBALA"
+    m_sMapLocationName "Karbala"
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 125
+    m_fMaximumSeizingTime 180
+    m_fMinimumSeizingTime 60
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1500
+     }
+    }
+   }
+  }
+  coords 378.438 8.196 583.572
+  angleY 64.283
+ }
+ BaseSteelworks {
+  components {
+   SCR_CampaignBuildingProviderComponent "{5CA897160F09AA9F}" {
+    m_fBuildingRadius 175
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBuildingIconImageset "{F7E8D4834A3AFF2F}UI/Imagesets/Conflict/conflict-icons-bw.imageset"
+    m_bIsControlPoint 1
+    m_bDisableWhenUnusedAsHQ 0
+    m_sBaseName "#AR-MapLocation_PinewoodLake"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_PinewoodLake-UC"
+    m_sMapLocationName "#AR-MapLocation_PinewoodLake"
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 150
+    m_fMaximumSeizingTime 180
+    m_fMinimumSeizingTime 60
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1500
+     }
+    }
+   }
+  }
+  coords 1260.751 5.313 1093.065
+  angleY 92.988
+ }
+ BaseHadithaFort {
+  components {
+   SCR_CampaignBuildingProviderComponent "{5CA897160F09AA9F}" {
+    m_fBuildingRadius 125
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBuildingIconImageset "{F7E8D4834A3AFF2F}UI/Imagesets/Conflict/conflict-icons-bw.imageset"
+    m_bIsControlPoint 1
+    m_bDisableWhenUnusedAsHQ 0
+    m_sBaseName "Haditha Fort"
+    m_sBaseNameUpper "HADITHA FORT"
+    m_sMapLocationName "Haditha Fort"
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 100
+    m_fMaximumSeizingTime 180
+    m_fMinimumSeizingTime 60
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1500
+     }
+    }
+   }
+  }
+  coords 762.848 9.313 300.241
+  angleY -92.375
+ }
+ BaseFOBVolturno {
+  components {
+   SCR_CampaignBuildingProviderComponent "{5CA897160F09AA9F}" {
+    m_fBuildingRadius 175
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBuildingIconImageset "{F7E8D4834A3AFF2F}UI/Imagesets/Conflict/conflict-icons-bw.imageset"
+    m_bIsControlPoint 1
+    m_bDisableWhenUnusedAsHQ 0
+    m_sBaseName "FOB Volturno"
+    m_sBaseNameUpper "FOB VOLTURNO"
+    m_sMapLocationName "FOB Volturno"
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 150
+    m_fMaximumSeizingTime 160
+    m_fMinimumSeizingTime 60
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1500
+     }
+    }
+   }
+  }
+  coords 468.859 9.062 1491.631
+  angleY -106.428
+ }
+ BaseAlSaqlawiyahPost {
+  components {
+   SCR_CampaignBuildingProviderComponent "{5CA897160F09AA9F}" {
+    m_fBuildingRadius 125
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBuildingIconImageset "{F7E8D4834A3AFF2F}UI/Imagesets/Conflict/conflict-icons-bw.imageset"
+    m_bIsControlPoint 1
+    m_bDisableWhenUnusedAsHQ 0
+    m_sBaseName "Al-Saqlawiyah Post"
+    m_sBaseNameUpper "AL SAQLAWIYAH POST"
+    m_sMapLocationName "Al-Saqlawiyah Post"
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 100
+    m_fMaximumSeizingTime 160
+    m_fMinimumSeizingTime 75
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1500
+     }
+    }
+   }
+  }
+  coords 699.055 45.852 1971.66
+  angleY 177.741
+ }
+ BaseAlMansoori {
+  components {
+   SCR_CampaignBuildingProviderComponent "{5CA897160F09AA9F}" {
+    m_fBuildingRadius 175
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBuildingIconImageset "{F7E8D4834A3AFF2F}UI/Imagesets/Conflict/conflict-icons-bw.imageset"
+    m_bIsControlPoint 1
+    m_bDisableWhenUnusedAsHQ 0
+    m_sBaseName "Al-Mansoori"
+    m_sBaseNameUpper "AL MANSOORI"
+    m_sMapLocationName "Al-Mansoori"
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 150
+    m_fMaximumSeizingTime 140
+    m_fMinimumSeizingTime 60
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1500
+     }
+    }
+   }
+  }
+  coords 719.143 8.438 2642.3
+  angleY 45.809
+ }
+ BaseOsama {
+  components {
+   SCR_CampaignBuildingProviderComponent "{5CA897160F09AA9F}" {
+    m_fBuildingRadius 125
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBuildingIconImageset "{F7E8D4834A3AFF2F}UI/Imagesets/Conflict/conflict-icons-bw.imageset"
+    m_bIsControlPoint 1
+    m_bDisableWhenUnusedAsHQ 0
+    m_sBaseName "Osama"
+    m_sBaseNameUpper "OSAMA"
+    m_sMapLocationName "Osama"
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 100
+    m_fMaximumSeizingTime 220
+    m_fMinimumSeizingTime 90
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1500
+     }
+    }
+   }
+  }
+  coords 726.91 8.2 3557.385
+  angleY -132.089
+ }
+ BaseSmallMosque {
+  components {
+   SCR_CampaignBuildingProviderComponent "{5CA897160F09AA9F}" {
+    m_fBuildingRadius 150
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBuildingIconImageset "{F7E8D4834A3AFF2F}UI/Imagesets/Conflict/conflict-icons-bw.imageset"
+    m_bIsControlPoint 1
+    m_bDisableWhenUnusedAsHQ 0
+    m_sBaseName "Small Mosque"
+    m_sBaseNameUpper "SMALL MOSQUE"
+    m_sMapLocationName "Small Mosque"
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 125
+    m_fMaximumSeizingTime 180
+    m_fMinimumSeizingTime 90
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1500
+     }
+    }
+   }
+  }
+  coords 2134.197 4.004 342.094
+  angleY 88.364
+ }
+ BaseBorderBase {
+  components {
+   SCR_CampaignBuildingProviderComponent "{5CA897160F09AA9F}" {
+    m_fBuildingRadius 125
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBuildingIconImageset "{F7E8D4834A3AFF2F}UI/Imagesets/Conflict/conflict-icons-bw.imageset"
+    m_bIsControlPoint 1
+    m_bDisableWhenUnusedAsHQ 0
+    m_sBaseName "Border Base"
+    m_sBaseNameUpper "BORDER BASE"
+    m_sMapLocationName "Border Base"
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 100
+    m_fMaximumSeizingTime 180
+    m_fMinimumSeizingTime 75
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1500
+     }
+    }
+   }
+  }
+  coords 3680.832 50.238 2046.251
+  angleY -119.368
+ }
+ BaseVilla {
+  components {
+   SCR_CampaignBuildingProviderComponent "{5CA897160F09AA9F}" {
+    m_fBuildingRadius 125
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBuildingIconImageset "{F7E8D4834A3AFF2F}UI/Imagesets/Conflict/conflict-icons-bw.imageset"
+    m_bIsControlPoint 1
+    m_bDisableWhenUnusedAsHQ 0
+    m_sBaseName "Villa"
+    m_sBaseNameUpper "VILLA"
+    m_sMapLocationName "Villa"
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 100
+    m_fMaximumSeizingTime 180
+    m_fMinimumSeizingTime 60
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1500
+     }
+    }
+   }
+  }
+  coords 2709.054 8.156 1571.336
+  angleY 88.769
+ }
+ BaseWoulah {
+  components {
+   SCR_CampaignBuildingProviderComponent "{5CA897160F09AA9F}" {
+    m_fBuildingRadius 125
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBuildingIconImageset "{F7E8D4834A3AFF2F}UI/Imagesets/Conflict/conflict-icons-bw.imageset"
+    m_bIsControlPoint 1
+    m_bDisableWhenUnusedAsHQ 0
+    m_sBaseName "Woulah"
+    m_sBaseNameUpper "WOULAH"
+    m_sMapLocationName "Woulah"
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 100
+    m_fMaximumSeizingTime 190
+    m_fMinimumSeizingTime 70
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1500
+     }
+    }
+   }
+  }
+  coords 2178.695 8.156 1319.945
+  angleY 85.898
+ }
+ BaseFirestation {
+  components {
+   SCR_CampaignBuildingProviderComponent "{5CA897160F09AA9F}" {
+    m_fBuildingRadius 125
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBuildingIconImageset "{F7E8D4834A3AFF2F}UI/Imagesets/Conflict/conflict-icons-bw.imageset"
+    m_bIsControlPoint 1
+    m_bDisableWhenUnusedAsHQ 0
+    m_sBaseName "Firestation"
+    m_sBaseNameUpper "FIRESTATION"
+    m_sMapLocationName "Firestation"
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 100
+    m_fMaximumSeizingTime 160
+    m_fMinimumSeizingTime 60
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1500
+     }
+    }
+   }
+  }
+  coords 1684.269 8.156 1751.383
+  angleY -19.684
+ }
+ BaseTVTower {
+  components {
+   SCR_CampaignBuildingProviderComponent "{5CA897160F09AA9F}" {
+    m_fBuildingRadius 175
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBuildingIconImageset "{F7E8D4834A3AFF2F}UI/Imagesets/Conflict/conflict-icons-bw.imageset"
+    m_iRadius 74
+    m_bIsControlPoint 1
+    m_bDisableWhenUnusedAsHQ 0
+    m_sBaseName "TV Tower"
+    m_sBaseNameUpper "TV TOWER"
+    m_sMapLocationName "TV Tower"
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 150
+    m_fMaximumSeizingTime 140
+    m_fMinimumSeizingTime 60
+    m_iMaximumSeizingCharacters 6
+   }
+   SCR_CampaignSuppliesComponent "{5C6696724F524DA2}" {
+    m_fOperationalRadius 50
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1500
+     }
+    }
+   }
+  }
+  coords 2053.703 8.156 1792.365
+  angleY 45.809
+ }
+ BaseRuins {
+  components {
+   SCR_CampaignBuildingProviderComponent "{5CA897160F09AA9F}" {
+    m_fBuildingRadius 175
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBuildingIconImageset "{F7E8D4834A3AFF2F}UI/Imagesets/Conflict/conflict-icons-bw.imageset"
+    m_iRadius 120
+    m_bIsControlPoint 1
+    m_bDisableWhenUnusedAsHQ 0
+    m_sBaseName "Ruins"
+    m_sBaseNameUpper "RUINS"
+    m_sMapLocationName "Ruins"
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 150
+    m_fMaximumSeizingTime 140
+    m_fMinimumSeizingTime 60
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1500
+     }
+    }
+   }
+  }
+  coords 2537.4 8.344 1294.396
+  angleY 91.187
+ }
+}
+GenericEntity : "{2FCB46C395C9CBE7}Prefabs/Props/Airport/GeneratorAirfield_USSR_01/GeneratorAirfield_USSR_01.et" {
+ coords 224.602 24.52 1925.478
+ angleY 25.126
+}
+$grp GenericEntity : "{522DCD528AE27052}Prefabs/Systems/MilitaryBase/ConflictRelayRadio.et" {
+ RelayKabala {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5C727AD73024FB00}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Kabala Relay"
+    m_sBaseNameUpper "KABALA RELAY"
+    m_sMapLocationName "Kabala Relay"
+   }
+  }
+  coords 314.472 32.035 785.942
+  angleY -84.506
+ }
+ Relay1 {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5C727AD73024FB00}" {
+    m_bIsControlPoint 1
+    m_sBaseName "First Relay"
+    m_sBaseNameUpper "FIRST RELAY"
+    m_sMapLocationName "First Relay"
+   }
+   SCR_CoverageRadioComponent "{5C727AD73024FB2A}" {
+    Transceivers {
+     RelayTransceiver "{5C727AD73024FB39}" {
+      "Transmitting Range" 2100
+     }
+    }
+   }
+  }
+  coords 1753.892 29.155 2914.642
+  angleY -178.91
+ }
+ RelayGenerator {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5C727AD73024FB00}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Dam"
+    m_sBaseNameUpper "DAM"
+    m_sMapLocationName "Dam"
+   }
+   SCR_CoverageRadioComponent "{5C727AD73024FB2A}" {
+    Transceivers {
+     RelayTransceiver "{5C727AD73024FB39}" {
+      "Transmitting Range" 10
+     }
+    }
+   }
+  }
+  coords 225.037 26.245 1924.542
+  angleY -154.566
+ }
+}
