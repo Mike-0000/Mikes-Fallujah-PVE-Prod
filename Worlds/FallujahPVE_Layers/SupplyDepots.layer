@@ -1,0 +1,209 @@
+$grp GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupplyDepot.et" {
+ SupplyPoint {
+  components {
+   SCR_CampaignSuppliesComponent "{59F288D533FE66DD}" {
+    m_fOperationalRadius 50
+   }
+  }
+  coords 2263.267 8.219 1891.735
+  angleX -0.895
+  {
+   GenericEntity : "{617E4B88F858344B}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_SupplyCache_S_FIA_03.et" {
+    coords -2.865 -0.285 -18.213
+    angleX 0.54
+    angleY -52.873
+    angleZ -0.714
+    {
+     GenericEntity {
+      ID "5E330D6CA3AAA53F"
+      components {
+       InventoryItemComponent "{5E9697F253F88D41}" {
+        Enabled 0
+       }
+       SCR_ResourceComponent "{5E3298BE225F0743}" {
+        Enabled 0
+       }
+       ActionsManagerComponent "{5E3298BE3694CAAB}" {
+        Enabled 0
+       }
+      }
+     }
+    }
+   }
+   GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_fAILimitThreshold 0.66
+      m_iGroupMultiplier 2
+     }
+    }
+    coords 0 0 0
+    angleX -0.773
+    angleY 149.697
+    angleZ 0.452
+    {
+     SCR_DefendWaypoint : "{2A81753527971941}Prefabs/AI/Waypoints/AIWaypoint_Defend_CP.et" {
+      components {
+       Hierarchy "{5CD0765889102122}" {
+       }
+      }
+      coords 2.493 0 -0.676
+      angleY -54.917
+      CompletionRadius 50
+     }
+    }
+   }
+  }
+ }
+ SupplyPoint2 {
+  components {
+   SCR_CampaignSuppliesComponent "{59F288D533FE66DD}" {
+    m_fOperationalRadius 50
+   }
+  }
+  coords 3680.76 12.039 405.939
+  angleX -0.001
+  angleY 0.028
+  angleZ 1.79
+  {
+   GenericEntity : "{617E4B88F858344B}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_SupplyCache_S_FIA_03.et" {
+    coords 11.827 0.458 -15.442
+    angleX -3.285
+    angleY -28.585
+    angleZ -2.286
+    {
+     GenericEntity {
+      ID "5E330D6CA3AAA53F"
+      components {
+       InventoryItemComponent "{5E9697F253F88D41}" {
+        Enabled 0
+       }
+       SCR_ResourceComponent "{5E3298BE225F0743}" {
+        Enabled 0
+       }
+       ActionsManagerComponent "{5E3298BE3694CAAB}" {
+        Enabled 0
+       }
+      }
+     }
+    }
+   }
+   GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_fAILimitThreshold 0.66
+      m_iGroupMultiplier 2
+     }
+    }
+    coords 0 0 0
+    angleY 149.697
+    {
+     SCR_DefendWaypoint : "{2A81753527971941}Prefabs/AI/Waypoints/AIWaypoint_Defend_CP.et" {
+      components {
+       Hierarchy "{5CD0765889102122}" {
+       }
+      }
+      coords 2.485 0.026 -0.672
+      angleX -0.891
+      angleY -54.916
+      angleZ -0.075
+      CompletionRadius 50
+     }
+    }
+   }
+  }
+ }
+ SupplyPoint3 {
+  components {
+   SCR_CampaignSuppliesComponent "{59F288D533FE66DD}" {
+    m_fOperationalRadius 50
+   }
+  }
+  coords 483.478 8.1 3235.067
+  angleX -0.895
+  {
+   GenericEntity : "{617E4B88F858344B}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_SupplyCache_S_FIA_03.et" {
+    coords -6.339 -0.041 -8.478
+    angleX -0.894
+    angleY 87.648
+    angleZ 0.037
+    {
+     GenericEntity {
+      ID "5E330D6CA3AAA53F"
+      components {
+       InventoryItemComponent "{5E9697F253F88D41}" {
+        Enabled 0
+       }
+       SCR_ResourceComponent "{5E3298BE225F0743}" {
+        Enabled 0
+       }
+       ActionsManagerComponent "{5E3298BE3694CAAB}" {
+        Enabled 0
+       }
+      }
+     }
+    }
+   }
+   GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_fAILimitThreshold 0.66
+      m_iGroupMultiplier 2
+     }
+    }
+    coords 0 0 0
+    angleX -0.773
+    angleY 149.697
+    angleZ 0.452
+    {
+     SCR_DefendWaypoint : "{2A81753527971941}Prefabs/AI/Waypoints/AIWaypoint_Defend_CP.et" {
+      components {
+       Hierarchy "{5CD0765889102122}" {
+       }
+      }
+      coords 4.395 0.144 9.815
+      angleX 0.074
+      angleY -54.918
+      angleZ -0.892
+      CompletionRadius 50
+     }
+    }
+   }
+  }
+ }
+ SupplyPoint4 {
+  components {
+   SCR_CampaignSuppliesComponent "{59F288D533FE66DD}" {
+    m_fOperationalRadius 50
+   }
+  }
+  coords 405.876 24.437 765.409
+  angleX 0.163
+  angleY -100.478
+  angleZ 0.88
+  {
+   GenericEntity : "{617E4B88F858344B}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_SupplyCache_S_FIA_03.et" {
+    coords -2.117 -0.015 -6.258
+    angleX 0.08
+    angleY -174.649
+    angleZ 0.891
+    {
+     GenericEntity {
+      ID "5E330D6CA3AAA53F"
+      components {
+       InventoryItemComponent "{5E9697F253F88D41}" {
+        Enabled 0
+       }
+       SCR_ResourceComponent "{5E3298BE225F0743}" {
+        Enabled 0
+       }
+       ActionsManagerComponent "{5E3298BE3694CAAB}" {
+        Enabled 0
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

@@ -99,16 +99,16 @@ SCR_GameModeCampaign GameMode_Campaign1 : "{3B230AAC5252108F}Prefabs/MP/Modes/Co
   }
  }
  coords 26.726 0 10.962
- m_aDisabledResourceTypes {
-  0
- }
+ m_fAutoReloadTime 30
  m_iControlPointsThreshold 20
+ m_fVictoryTimer 180
  m_iSuppliesReplenishThreshold 200
  m_iQuickSuppliesReplenishThreshold 40
  m_fQuickSuppliesReplenishMultiplier 2
  m_iRegularSuppliesIncome 5
  m_iRegularSuppliesIncomeExtra 5
- m_iMinStartingSupplies 25
+ m_iHQStartingSupplies 1000
+ m_iMinStartingSupplies 100
  m_iMaxStartingSupplies 175
  m_iSuicidePenaltyCooldown 1
  m_iSuicideRespawnDelay 1
