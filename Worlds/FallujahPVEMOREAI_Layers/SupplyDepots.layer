@@ -50,6 +50,7 @@ $grp GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupp
       coords 2.493 0 -0.676
       angleY -54.917
       CompletionRadius 50
+      m_bFastInit 0
      }
     }
    }
@@ -108,6 +109,7 @@ $grp GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupp
       angleY -54.916
       angleZ -0.075
       CompletionRadius 50
+      m_bFastInit 0
      }
     }
    }
@@ -166,6 +168,7 @@ $grp GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupp
       angleY -54.918
       angleZ -0.892
       CompletionRadius 50
+      m_bFastInit 0
      }
     }
    }

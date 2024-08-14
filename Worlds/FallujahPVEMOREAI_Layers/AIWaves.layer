@@ -21,6 +21,7 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
     angleY -54.336
     AIBehaviorTreeMoveTo "{A3755C1F88DED8D6}AI/BehaviorTrees/Waypoints/WP_Move.bt"
     CompletionRadius 40
+    m_bFastInit 0
    }
   }
  }
@@ -46,6 +47,7 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
     angleY -54.336
     AIBehaviorTreeMoveTo "{A3755C1F88DED8D6}AI/BehaviorTrees/Waypoints/WP_Move.bt"
     CompletionRadius 40
+    m_bFastInit 0
    }
   }
  }
@@ -71,6 +73,7 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
     angleY -54.336
     AIBehaviorTreeMoveTo "{A3755C1F88DED8D6}AI/BehaviorTrees/Waypoints/WP_Move.bt"
     CompletionRadius 40
+    m_bFastInit 0
    }
   }
  }
@@ -96,6 +99,7 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
     angleY -54.336
     AIBehaviorTreeMoveTo "{A3755C1F88DED8D6}AI/BehaviorTrees/Waypoints/WP_Move.bt"
     CompletionRadius 40
+    m_bFastInit 0
    }
   }
  }
@@ -121,6 +125,7 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
     angleY -54.336
     AIBehaviorTreeMoveTo "{A3755C1F88DED8D6}AI/BehaviorTrees/Waypoints/WP_Move.bt"
     CompletionRadius 40
+    m_bFastInit 0
    }
   }
  }
@@ -146,6 +151,7 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
     angleY -54.336
     AIBehaviorTreeMoveTo "{A3755C1F88DED8D6}AI/BehaviorTrees/Waypoints/WP_Move.bt"
     CompletionRadius 40
+    m_bFastInit 0
    }
   }
  }
@@ -171,6 +177,7 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
     angleY -54.336
     AIBehaviorTreeMoveTo "{A3755C1F88DED8D6}AI/BehaviorTrees/Waypoints/WP_Move.bt"
     CompletionRadius 40
+    m_bFastInit 0
    }
   }
  }
@@ -196,6 +203,7 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
     angleY -54.336
     AIBehaviorTreeMoveTo "{A3755C1F88DED8D6}AI/BehaviorTrees/Waypoints/WP_Move.bt"
     CompletionRadius 40
+    m_bFastInit 0
    }
   }
  }
@@ -221,6 +229,7 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
     angleY -54.336
     AIBehaviorTreeMoveTo "{A3755C1F88DED8D6}AI/BehaviorTrees/Waypoints/WP_Move.bt"
     CompletionRadius 40
+    m_bFastInit 0
    }
   }
  }
@@ -246,6 +255,7 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
     angleY -54.336
     AIBehaviorTreeMoveTo "{A3755C1F88DED8D6}AI/BehaviorTrees/Waypoints/WP_Move.bt"
     CompletionRadius 40
+    m_bFastInit 0
    }
   }
  }
@@ -271,6 +281,7 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
     angleY -54.336
     AIBehaviorTreeMoveTo "{A3755C1F88DED8D6}AI/BehaviorTrees/Waypoints/WP_Move.bt"
     CompletionRadius 40
+    m_bFastInit 0
    }
   }
  }
@@ -296,6 +307,7 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
     angleY -54.336
     AIBehaviorTreeMoveTo "{A3755C1F88DED8D6}AI/BehaviorTrees/Waypoints/WP_Move.bt"
     CompletionRadius 40
+    m_bFastInit 0
    }
   }
  }
@@ -321,6 +333,7 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
     angleY -54.336
     AIBehaviorTreeMoveTo "{A3755C1F88DED8D6}AI/BehaviorTrees/Waypoints/WP_Move.bt"
     CompletionRadius 40
+    m_bFastInit 0
    }
   }
  }
@@ -346,6 +359,7 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
     angleY -54.336
     AIBehaviorTreeMoveTo "{A3755C1F88DED8D6}AI/BehaviorTrees/Waypoints/WP_Move.bt"
     CompletionRadius 40
+    m_bFastInit 0
    }
   }
  }
@@ -371,6 +385,7 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
     angleY -54.336
     AIBehaviorTreeMoveTo "{A3755C1F88DED8D6}AI/BehaviorTrees/Waypoints/WP_Move.bt"
     CompletionRadius 40
+    m_bFastInit 0
    }
   }
  }
@@ -396,6 +411,7 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
     angleY -54.336
     AIBehaviorTreeMoveTo "{A3755C1F88DED8D6}AI/BehaviorTrees/Waypoints/WP_Move.bt"
     CompletionRadius 20.1
+    m_bFastInit 0
    }
   }
  }
@@ -421,6 +437,7 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
     angleY -54.336
     AIBehaviorTreeMoveTo "{A3755C1F88DED8D6}AI/BehaviorTrees/Waypoints/WP_Move.bt"
     CompletionRadius 40
+    m_bFastInit 0
    }
   }
  }
@@ -446,6 +463,7 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
     angleY -54.336
     AIBehaviorTreeMoveTo "{A3755C1F88DED8D6}AI/BehaviorTrees/Waypoints/WP_Move.bt"
     CompletionRadius 40
+    m_bFastInit 0
    }
   }
  }
@@ -471,6 +489,7 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
     angleY -54.336
     AIBehaviorTreeMoveTo "{A3755C1F88DED8D6}AI/BehaviorTrees/Waypoints/WP_Move.bt"
     CompletionRadius 40
+    m_bFastInit 0
    }
   }
  }
@@ -496,6 +515,7 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
     angleY -54.336
     AIBehaviorTreeMoveTo "{A3755C1F88DED8D6}AI/BehaviorTrees/Waypoints/WP_Move.bt"
     CompletionRadius 40
+    m_bFastInit 0
    }
   }
  }
@@ -521,6 +541,7 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
     angleY -54.336
     AIBehaviorTreeMoveTo "{A3755C1F88DED8D6}AI/BehaviorTrees/Waypoints/WP_Move.bt"
     CompletionRadius 40
+    m_bFastInit 0
    }
   }
  }
@@ -545,6 +566,7 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
     angleY -50.555
     AIBehaviorTreeMoveTo "{A3755C1F88DED8D6}AI/BehaviorTrees/Waypoints/WP_Move.bt"
     CompletionRadius 6
+    m_bFastInit 0
    }
   }
  }
@@ -570,6 +592,7 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
     angleY -54.336
     AIBehaviorTreeMoveTo "{A3755C1F88DED8D6}AI/BehaviorTrees/Waypoints/WP_Move.bt"
     CompletionRadius 40
+    m_bFastInit 0
    }
   }
  }
@@ -595,6 +618,7 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
     angleY -54.336
     AIBehaviorTreeMoveTo "{A3755C1F88DED8D6}AI/BehaviorTrees/Waypoints/WP_Move.bt"
     CompletionRadius 44
+    m_bFastInit 0
    }
   }
  }
@@ -620,6 +644,7 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
     angleY -54.336
     AIBehaviorTreeMoveTo "{A3755C1F88DED8D6}AI/BehaviorTrees/Waypoints/WP_Move.bt"
     CompletionRadius 12
+    m_bFastInit 0
    }
   }
  }
@@ -645,6 +670,7 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
     angleY -54.336
     AIBehaviorTreeMoveTo "{A3755C1F88DED8D6}AI/BehaviorTrees/Waypoints/WP_Move.bt"
     CompletionRadius 40
+    m_bFastInit 0
    }
   }
  }
@@ -670,6 +696,7 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
     angleY -54.336
     AIBehaviorTreeMoveTo "{A3755C1F88DED8D6}AI/BehaviorTrees/Waypoints/WP_Move.bt"
     CompletionRadius 40
+    m_bFastInit 0
    }
   }
  }
@@ -695,6 +722,7 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
     angleY -54.336
     AIBehaviorTreeMoveTo "{A3755C1F88DED8D6}AI/BehaviorTrees/Waypoints/WP_Move.bt"
     CompletionRadius 40
+    m_bFastInit 0
    }
   }
  }
@@ -720,6 +748,7 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
     angleY -54.336
     AIBehaviorTreeMoveTo "{A3755C1F88DED8D6}AI/BehaviorTrees/Waypoints/WP_Move.bt"
     CompletionRadius 40
+    m_bFastInit 0
    }
   }
  }
@@ -745,6 +774,7 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
     angleY -54.336
     AIBehaviorTreeMoveTo "{A3755C1F88DED8D6}AI/BehaviorTrees/Waypoints/WP_Move.bt"
     CompletionRadius 40
+    m_bFastInit 0
    }
   }
  }

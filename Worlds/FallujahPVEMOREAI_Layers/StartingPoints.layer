@@ -34,11 +34,6 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
   angleY -174.33
   Flags 524291
   {
-   GenericEntity {
-    ID "5CCED514A5908822"
-    coords 8.839 0.008 0.308
-    Flags 2097155
-   }
    SCR_CampaignSpawnPointGroup {
     ID "5C6696731466AF36"
     coords 0 0.011 0
@@ -158,16 +153,6 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
   coords 3439.951 8.198 3215.68
   angleY 14.076
   {
-   GenericEntity {
-    ID "5CCED514A5908822"
-    coords 1.064 0 2.993
-    Flags 2097155
-   }
-   GenericEntity {
-    ID "606078EE23DE48AC"
-    coords 0.652 0 4.044
-    Flags 2097155
-   }
    GenericEntity {
     ID "5EEEC471C30578EB"
     coords 32.223 0.75 3.142
