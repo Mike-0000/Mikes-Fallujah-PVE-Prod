@@ -29,4 +29,32 @@ $grp GenericEntity : "{16148BF23770F1D3}Prefabs/Compositions/Slotted/SlotFlatSma
    }
   }
  }
+ {
+  coords 1657.253 8.156 1953.768
+  angleY 172.222
+  {
+   GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_eGroupType TEAM_MG
+      m_iGroupMultiplier 4
+     }
+    }
+    coords 2.176 0.112 -1.151
+    angleY -59.002
+    {
+     SCR_DefendWaypoint : "{2A81753527971941}Prefabs/AI/Waypoints/AIWaypoint_Defend_CP.et" {
+      components {
+       Hierarchy "{5CD0765889102122}" {
+       }
+      }
+      coords -1.239 -0.112 2.09
+      angleY -167.556
+      AIBehaviorTreeMoveTo "{A3755C1F88DED8D6}AI/BehaviorTrees/Waypoints/WP_Move.bt"
+      CompletionRadius 18.6
+     }
+    }
+   }
+  }
+ }
 }

@@ -641,4 +641,23 @@ $grp GenericEntity : "{522DCD528AE27052}Prefabs/Systems/MilitaryBase/ConflictRel
   coords 225.037 26.245 1924.542
   angleY -154.566
  }
+ Relay2 {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5C727AD73024FB00}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Furqan Mosque"
+    m_sBaseNameUpper "FURQAN MOSQUE"
+    m_sMapLocationName "Furqan Mosque"
+   }
+   SCR_CoverageRadioComponent "{5C727AD73024FB2A}" {
+    Transceivers {
+     RelayTransceiver "{5C727AD73024FB39}" {
+      "Transmitting Range" 1100
+     }
+    }
+   }
+  }
+  coords 1660.731 9.883 1959.805
+  angleY -166.492
+ }
 }

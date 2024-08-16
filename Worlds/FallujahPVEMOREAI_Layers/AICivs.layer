@@ -37,7 +37,7 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
     m_eGroupType TEAM_CIV_MEDIUM
    }
   }
-  coords 1664.049 8.307 1974.093
+  coords 1655.266 8.308 1976.706
  }
  Civ6 {
   components {
