@@ -87,7 +87,7 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
     m_iGroupMultiplier 7
    }
   }
-  coords 767.276 9.501 301.542
+  coords 765.641 9.455 300.704
  }
  {
   components {

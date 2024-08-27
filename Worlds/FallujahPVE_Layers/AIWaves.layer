@@ -199,10 +199,10 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
      Hierarchy "{5CD0765889102122}" {
      }
     }
-    coords -262.063 0 -46.748
+    coords -255.822 0 -7.511
     angleY -54.336
     AIBehaviorTreeMoveTo "{A3755C1F88DED8D6}AI/BehaviorTrees/Waypoints/WP_Move.bt"
-    CompletionRadius 40
+    CompletionRadius 21.6
     m_bFastInit 0
    }
   }
@@ -485,10 +485,10 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
      Hierarchy "{5CD0765889102122}" {
      }
     }
-    coords 168.873 2.873 436.559
+    coords 326.578 2.873 464.862
     angleY -54.336
     AIBehaviorTreeMoveTo "{A3755C1F88DED8D6}AI/BehaviorTrees/Waypoints/WP_Move.bt"
-    CompletionRadius 40
+    CompletionRadius 15.1
     m_bFastInit 0
    }
   }

@@ -54,7 +54,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     }
    }
   }
-  coords 2154.236 8.156 2092.929
+  coords 2157.575 8.156 2133.454
   angleY -94.856
  }
  BaseEmbassy {
@@ -149,6 +149,16 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
   }
   coords 3284.235 10.253 762.156
   angleY -123.708
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords -0 0.122 12
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    coords 0 0.122 14
+   }
+  }
  }
  BaseHumanitarianBase {
   components {
@@ -236,6 +246,12 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
   }
   coords 1260.751 5.313 1093.065
   angleY 92.988
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords 0 -0.001 12
+   }
+  }
  }
  BaseHadithaFort {
   components {
@@ -265,6 +281,16 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
   }
   coords 762.848 9.313 300.241
   angleY -92.375
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords -3.039 -0.001 2.164
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    coords -2.383 -0.001 1.487
+   }
+  }
  }
  BaseFOBVolturno {
   components {
@@ -294,6 +320,16 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
   }
   coords 468.859 9.062 1491.631
   angleY -106.428
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords 0.938 0 3.864
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    coords 0.656 0 3.731
+   }
+  }
  }
  BaseAlSaqlawiyahPost {
   components {
@@ -410,6 +446,16 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
   }
   coords 2134.197 4.004 342.094
   angleY 88.364
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords -1.602 0.033 4.836
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    coords 3.254 -0.449 16.047
+   }
+  }
  }
  BaseBorderBase {
   components {
@@ -439,6 +485,16 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
   }
   coords 3680.832 50.238 2046.251
   angleY -119.368
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords 9.234 -1.094 -0.957
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    coords 7.308 -0.324 -11.488
+   }
+  }
  }
  BaseVilla {
   components {
@@ -524,8 +580,8 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     }
    }
   }
-  coords 1684.269 8.156 1751.383
-  angleY -19.684
+  coords 1833.229 8.156 1780.115
+  angleY 56.813
  }
  BaseTVTower {
   components {
@@ -625,7 +681,7 @@ $grp GenericEntity : "{522DCD528AE27052}Prefabs/Systems/MilitaryBase/ConflictRel
     }
    }
   }
-  coords 1753.892 29.155 2914.642
+  coords 1745.811 23.871 2918.999
   angleY -178.91
  }
  RelayGenerator {

@@ -87,4 +87,44 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
   }
   coords 1258.402 3.486 1686.444
  }
+ Civ12 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType TEAM_CIV_SMALL
+   }
+  }
+  coords 1949.068 8.157 1597.357
+ }
+ Civ14 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType TEAM_CIV_SMALL
+   }
+  }
+  coords 1177.464 6.781 1690.56
+ }
+ Civ13 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType TEAM_CIV_SMALL
+   }
+  }
+  coords 1974.79 8.156 2219.146
+ }
+ Civ15 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType TEAM_CIV_SMALL
+   }
+  }
+  coords 2580.044 17.036 988.846
+ }
+ Civ16 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType TEAM_CIV_SMALL
+   }
+  }
+  coords 2636.339 8.156 2193.574
+ }
 }

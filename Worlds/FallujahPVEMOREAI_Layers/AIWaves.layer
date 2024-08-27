@@ -199,10 +199,10 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
      Hierarchy "{5CD0765889102122}" {
      }
     }
-    coords -262.063 0 -46.748
+    coords -247.646 0 -8.363
     angleY -54.336
     AIBehaviorTreeMoveTo "{A3755C1F88DED8D6}AI/BehaviorTrees/Waypoints/WP_Move.bt"
-    CompletionRadius 40
+    CompletionRadius 17.1
     m_bFastInit 0
    }
   }
@@ -485,10 +485,10 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
      Hierarchy "{5CD0765889102122}" {
      }
     }
-    coords 168.873 2.873 436.559
+    coords 326.919 2.873 461.809
     angleY -54.336
     AIBehaviorTreeMoveTo "{A3755C1F88DED8D6}AI/BehaviorTrees/Waypoints/WP_Move.bt"
-    CompletionRadius 40
+    CompletionRadius 12.2
     m_bFastInit 0
    }
   }
@@ -774,6 +774,32 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
     angleY -54.336
     AIBehaviorTreeMoveTo "{A3755C1F88DED8D6}AI/BehaviorTrees/Waypoints/WP_Move.bt"
     CompletionRadius 40
+    m_bFastInit 0
+   }
+  }
+ }
+ TVTowerCounter1 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType SQUAD_RIFLE
+    m_iRespawnPeriod 2
+    m_fAILimitThreshold 0.95
+    m_iRespawnWaves 2
+    m_iGroupMultiplier 4
+   }
+  }
+  coords 2145.903 8.156 1460.116
+  angleY -3.781
+  {
+   SCR_DefendWaypoint : "{2A81753527971941}Prefabs/AI/Waypoints/AIWaypoint_Defend_CP.et" {
+    components {
+     Hierarchy "{5CD0765889102122}" {
+     }
+    }
+    coords -80.928 0 333.528
+    angleY -54.336
+    AIBehaviorTreeMoveTo "{A3755C1F88DED8D6}AI/BehaviorTrees/Waypoints/WP_Move.bt"
+    CompletionRadius 26.6
     m_bFastInit 0
    }
   }
