@@ -100,7 +100,7 @@ SCR_GameModeCampaign GameMode_Campaign1 : "{3B230AAC5252108F}Prefabs/MP/Modes/Co
  }
  coords 26.726 0 10.962
  m_fAutoReloadTime 30
- m_iControlPointsThreshold 20
+ m_iControlPointsThreshold 22
  m_fVictoryTimer 180
  m_iSuppliesReplenishThreshold 200
  m_iQuickSuppliesReplenishThreshold 40
@@ -121,6 +121,28 @@ SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/
  coords 20.291 0 5.837
  Factions {
   SCR_CampaignFaction "{50B30C3AF4BFD934}" {
+   "Identity of soldiers" FactionIdentity "{570CFDC6685B6B25}" {
+    SoundIdentityArray {
+     SoundIdentity "{570CE64860055F45}" {
+      VoiceID 201
+     }
+     SoundIdentity "{5AEC96AD24E40119}" {
+      VoiceID 201
+     }
+     SoundIdentity "{5AEC96AD20F98C72}" {
+      VoiceID 201
+     }
+     SoundIdentity "{5AEC96AD204C3B08}" {
+      VoiceID 202
+     }
+     SoundIdentity "{5AEC96ADDFFD5B0A}" {
+      VoiceID 202
+     }
+     SoundIdentity "{5AEC96ADDFB84005}" {
+      VoiceID 202
+     }
+    }
+   }
    m_bIsPlayable 0
    m_bShowInWelcomeScreenIfNonPlayable 0
    m_sFactionFlag "{72E8159766C00C3D}UI/Textures/Flags/rhs_flag_rus.edds"

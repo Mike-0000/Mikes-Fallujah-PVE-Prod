@@ -123,9 +123,9 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
     m_iRadius 200
     m_bCanBeHQ 1
+    m_bIsSupplyHub 1
     m_sBaseName "#AR-Campaign_MapLocation_MOB"
     m_sBaseNameUpper "#AR-Campaign_MapLocation_MOB-UC"
-    m_eType RELAY
    }
    SCR_CampaignMilitaryBaseMapDescriptorComponent "{5C669672B19BFE5A}" {
     DisplayName "US Army HQ"
@@ -150,16 +150,33 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     "faction affiliation" "US"
    }
   }
-  coords 3439.951 8.198 3215.68
-  angleY 14.076
+  coords 3473.015 8.156 3222.47
+  angleY 13.731
   {
    GenericEntity {
     ID "5EEEC471C30578EB"
-    coords 32.223 0.75 3.142
+   }
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_eGroupType TEAM_SENTRY
+     }
+     SCR_FactionAffiliationComponent "{5CCEC6039525B984}" {
+      "faction affiliation" "USSR"
+     }
+    }
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    components {
+     SCR_FactionAffiliationComponent "{5CCEC6039525B984}" {
+      "faction affiliation" "USSR"
+     }
+    }
    }
    SCR_CampaignSpawnPointGroup {
     ID "5C6696731466AF36"
-    coords 1.563 0 2.869
    }
   }
  }
