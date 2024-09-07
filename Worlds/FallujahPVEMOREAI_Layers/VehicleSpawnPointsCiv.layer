@@ -1,0 +1,418 @@
+$grp GenericEntity : "{644AEC5C537E03F0}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_USSR.et" {
+ CivVicSpawn4 {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_aIncludedEditableEntityLabels {
+     13 50
+    }
+    m_aExcludedEditableEntityLabels {
+     51 52 26
+    }
+    m_bRequireAllIncludedLabels 1
+    m_bIsVehiclePatrol 1
+   }
+   SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
+    "faction affiliation" "CIA"
+   }
+  }
+  coords 1604.556 8.47 1758.869
+  angleY -72.088
+  {
+   GenericEntity AmbientPatrol19 : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_eGroupType TEAM_CIV_SMALL
+      m_bIsVehicleGroup 1
+     }
+    }
+    coords -4.745 -0.083 7.282
+    angleY 72.088
+    {
+     $grp SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
+      {
+       coords 28.632 -0.149 -5.514
+       m_fPriorityLevel 2000
+      }
+      {
+       coords 1232.035 -0.23 265.199
+       m_fPriorityLevel 2000
+      }
+      {
+       coords 285.427 -0.232 1493.732
+       m_fPriorityLevel 2000
+      }
+     }
+    }
+   }
+  }
+ }
+ CivVicSpawn7 {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_aIncludedEditableEntityLabels {
+     36 50 13
+    }
+    m_aExcludedEditableEntityLabels {
+     51 52 26 29
+    }
+    m_bRequireAllIncludedLabels 1
+    m_bIsVehiclePatrol 1
+   }
+   SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
+    "faction affiliation" "CIV"
+   }
+  }
+  coords 1697.953 8.156 2124.269
+  angleY -72.088
+  {
+   GenericEntity AmbientPatrol22 : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_eGroupType TEAM_CIV_SMALL
+      m_bIsVehicleGroup 1
+     }
+    }
+    coords -4.212 -0.083 12.397
+    angleY 72.088
+    {
+     $grp SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
+      {
+       coords 8.445 0.083 2.187
+       m_fPriorityLevel 2000
+      }
+      {
+       coords 869.682 0.052 -95.052
+       m_fPriorityLevel 2000
+      }
+      {
+       coords 444.559 0.083 -149.732
+       m_fPriorityLevel 2000
+      }
+     }
+    }
+   }
+  }
+ }
+ CivVicSpawn8 {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_aIncludedEditableEntityLabels {
+     36 50 13
+    }
+    m_aExcludedEditableEntityLabels {
+     51 52 26 29
+    }
+    m_bRequireAllIncludedLabels 1
+    m_bIsVehiclePatrol 1
+   }
+   SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
+    "faction affiliation" "CIV"
+   }
+  }
+  coords 2714.724 8.156 2108.257
+  angleY -72.088
+  {
+   GenericEntity AmbientPatrol23 : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_eGroupType TEAM_CIV_SMALL
+      m_bIsVehicleGroup 1
+     }
+    }
+    coords -4.745 -0.083 7.282
+    angleY 72.088
+    {
+     $grp SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
+      {
+       coords 8.445 0.083 2.187
+       m_fPriorityLevel 2000
+      }
+      {
+       coords -65.242 0.083 254.843
+       m_fPriorityLevel 2000
+      }
+      {
+       coords -557.938 0.083 -128.692
+       m_fPriorityLevel 2000
+      }
+     }
+    }
+   }
+  }
+ }
+ CivVicSpawn9 {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_aIncludedEditableEntityLabels {
+     36 50 13
+    }
+    m_aExcludedEditableEntityLabels {
+     51 52 26 29
+    }
+    m_bRequireAllIncludedLabels 1
+    m_bIsVehiclePatrol 1
+   }
+   SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
+    "faction affiliation" "CIV"
+   }
+  }
+  coords 1267.162 8.156 2365.392
+  angleY -72.088
+  {
+   GenericEntity AmbientPatrol30 : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_eGroupType TEAM_CIV_SMALL
+      m_bIsVehicleGroup 1
+     }
+    }
+    coords -4.745 -0.083 7.282
+    angleY 72.088
+    {
+     $grp SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
+      {
+       coords 8.445 0.083 2.187
+       m_fPriorityLevel 2000
+      }
+      {
+       coords 1235.984 0.084 81.617
+       m_fPriorityLevel 2000
+      }
+      {
+       coords 1244.95 0.083 13.843
+       m_fPriorityLevel 2000
+      }
+      {
+       coords 825.529 0.084 -14.085
+       m_fPriorityLevel 2000
+      }
+      {
+       coords 683.838 0.084 -145.019
+       m_fPriorityLevel 2000
+      }
+      {
+       coords 730.236 0.084 -184.05
+       m_fPriorityLevel 2000
+      }
+      {
+       coords 612.715 0.084 -131.374
+       m_fPriorityLevel 2000
+      }
+     }
+    }
+   }
+  }
+ }
+ CivVicSpawn2 {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_aIncludedEditableEntityLabels {
+     36 50 13
+    }
+    m_aExcludedEditableEntityLabels {
+     51 52 26 29
+    }
+    m_bRequireAllIncludedLabels 1
+    m_bIsVehiclePatrol 1
+   }
+   SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
+    "faction affiliation" "CIV"
+   }
+  }
+  coords 2214.134 8.156 1989.303
+  angleY -72.088
+  {
+   GenericEntity AmbientPatrol16 : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_eGroupType TEAM_CIV_SMALL
+      m_bIsVehicleGroup 1
+     }
+    }
+    coords -4.745 -0.083 7.282
+    angleY 72.088
+    {
+     $grp SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
+      {
+       coords 8.445 0.083 2.187
+       m_fPriorityLevel 2000
+      }
+      {
+       coords 322.272 0.052 226.653
+       m_fPriorityLevel 2000
+      }
+      {
+       coords 354.586 0.053 41.109
+       m_fPriorityLevel 2000
+      }
+      {
+       coords -235.547 0.052 1485.636
+       m_fPriorityLevel 2000
+      }
+     }
+    }
+   }
+  }
+ }
+ CivVicSpawn3 {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_aIncludedEditableEntityLabels {
+     36 50 13
+    }
+    m_aExcludedEditableEntityLabels {
+     51 52 26 29
+    }
+    m_bRequireAllIncludedLabels 1
+    m_bIsVehiclePatrol 1
+   }
+   SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
+    "faction affiliation" "CIV"
+   }
+  }
+  coords 1950.136 8.157 1147.148
+  angleY -72.088
+  {
+   GenericEntity AmbientPatrol5 : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_eGroupType TEAM_CIV_SMALL
+      m_bIsVehicleGroup 1
+     }
+    }
+    coords -4.745 -0.083 7.282
+    angleY 72.088
+    {
+     $grp SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
+      {
+       coords 8.445 0.083 2.187
+       m_fPriorityLevel 2000
+      }
+      {
+       coords 333.634 0.302 19.477
+       m_fPriorityLevel 2000
+      }
+      {
+       coords 316.565 0.082 381.7
+       m_fPriorityLevel 2000
+      }
+      {
+       coords 120.002 0.082 299.278
+       m_fPriorityLevel 2000
+      }
+      {
+       coords 725.066 0.082 -800.535
+       m_fPriorityLevel 2000
+      }
+     }
+    }
+   }
+  }
+ }
+ CivVicSpawn5 {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_aIncludedEditableEntityLabels {
+     36 50 13
+    }
+    m_aExcludedEditableEntityLabels {
+     51 52 26 29
+    }
+    m_bRequireAllIncludedLabels 1
+    m_bIsVehiclePatrol 1
+   }
+   SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
+    "faction affiliation" "CIV"
+   }
+  }
+  coords 2180.512 8.156 1873.505
+  angleY -72.088
+  {
+   GenericEntity AmbientPatrol7 : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_eGroupType TEAM_CIV_SMALL
+      m_bIsVehicleGroup 1
+     }
+    }
+    coords -4.745 -0.083 7.282
+    angleY 72.088
+    {
+     $grp SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
+      {
+       coords 8.445 0.083 2.187
+       m_fPriorityLevel 2000
+      }
+      {
+       coords -0.586 0.085 93.08
+       m_fPriorityLevel 2000
+      }
+      {
+       coords 578.431 0.083 149.372
+       m_fPriorityLevel 2000
+      }
+      {
+       coords 31.529 0.083 -228.921
+       m_fPriorityLevel 2000
+      }
+     }
+    }
+   }
+  }
+ }
+ CivVicSpawn10 {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_aIncludedEditableEntityLabels {
+     36 50 13
+    }
+    m_aExcludedEditableEntityLabels {
+     51 52 26 29
+    }
+    m_bRequireAllIncludedLabels 1
+    m_bIsVehiclePatrol 1
+   }
+   SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
+    "faction affiliation" "CIV"
+   }
+  }
+  coords 3026.636 11.547 2500.286
+  angleY -72.088
+  {
+   GenericEntity AmbientPatrol9 : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_eGroupType TEAM_CIV_SMALL
+      m_bIsVehicleGroup 1
+     }
+    }
+    coords -4.745 -0.083 7.282
+    angleY 72.088
+    {
+     $grp SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
+      {
+       coords 8.445 0.083 2.187
+       m_fPriorityLevel 2000
+      }
+      {
+       coords -1076.416 -3.309 730.293
+       m_fPriorityLevel 2000
+      }
+      {
+       coords -2355.516 -5.001 544.892
+       m_fPriorityLevel 2000
+      }
+      {
+       coords -1069.339 -3.307 693.751
+       m_fPriorityLevel 2000
+      }
+      {
+       coords 196.558 -0.347 -466.363
+       m_fPriorityLevel 2000
+      }
+     }
+    }
+   }
+  }
+ }
+}

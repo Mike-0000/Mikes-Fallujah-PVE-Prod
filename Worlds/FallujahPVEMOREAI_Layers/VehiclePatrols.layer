@@ -1,0 +1,282 @@
+$grp GenericEntity : "{644AEC5C537E03F0}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_USSR.et" {
+ ArmoredOsamaPatrol12 {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_aIncludedEditableEntityLabels {
+     21 20
+    }
+    m_aExcludedEditableEntityLabels {
+     51 52
+    }
+    m_bRequireAllIncludedLabels 1
+    m_bIsVehiclePatrol 1
+   }
+  }
+  coords 716.721 8.156 3593.831
+  angleY -72.088
+  {
+   GenericEntity AmbientPatrol24 : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_eGroupType TEAM_UAZ_ARMED
+      m_bIsVehicleGroup 1
+     }
+    }
+    coords -4.745 2.123 7.282
+    angleY 72.088
+    {
+     $grp SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
+      {
+       coords 20.44 -2.123 1.48
+       m_fPriorityLevel 32
+      }
+      {
+       coords 315.983 -3.106 -310.949
+       CompletionRadius 4.5
+       m_fPriorityLevel 32
+      }
+     }
+    }
+   }
+  }
+ }
+ EnemyCivVicSpawn10 {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_aIncludedEditableEntityLabels {
+     36 50 13
+    }
+    m_aExcludedEditableEntityLabels {
+     51 52 26 29
+    }
+    m_bRequireAllIncludedLabels 1
+    m_bIsVehiclePatrol 1
+   }
+   SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
+    "faction affiliation" "CIV"
+   }
+  }
+  coords 3021.405 8.156 2037.226
+  angleY -72.088
+  {
+   GenericEntity AmbientPatrol31 : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_eGroupType FIRETEAM
+      m_bIsVehicleGroup 1
+     }
+    }
+    coords -4.745 0 7.282
+    angleY 72.088
+    {
+     SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
+      coords 98.5 0.003 0.885
+      m_fPriorityLevel 32
+     }
+    }
+   }
+  }
+ }
+ EnemyCivVicSpawn2 {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_aIncludedEditableEntityLabels {
+     36 50 13
+    }
+    m_aExcludedEditableEntityLabels {
+     51 52 26 29
+    }
+    m_bRequireAllIncludedLabels 1
+    m_bIsVehiclePatrol 1
+   }
+   SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
+    "faction affiliation" "CIV"
+   }
+  }
+  coords 1475.105 8.249 2070.359
+  angleY -72.088
+  {
+   GenericEntity AmbientPatrol2 : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_eGroupType FIRETEAM
+      m_bIsVehicleGroup 1
+     }
+    }
+    coords -4.745 0.001 7.282
+    angleY 72.088
+    {
+     $grp SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
+      {
+       coords 18.738 -0.031 5.449
+       m_fPriorityLevel 32
+      }
+      {
+       coords 1008.846 -0.094 307.118
+       m_fPriorityLevel 32
+      }
+      {
+       coords 619.978 -0.094 270.949
+       m_fPriorityLevel 32
+      }
+      {
+       coords 142.831 0.219 -307.883
+       m_fPriorityLevel 32
+      }
+      {
+       coords -838.315 -0.919 983.943
+       m_fPriorityLevel 32
+      }
+     }
+    }
+   }
+  }
+ }
+ EnemyCivVicSpawn3 {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_aIncludedEditableEntityLabels {
+     36 50 13
+    }
+    m_aExcludedEditableEntityLabels {
+     51 52 26 29
+    }
+    m_bRequireAllIncludedLabels 1
+    m_bIsVehiclePatrol 1
+   }
+   SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
+    "faction affiliation" "CIV"
+   }
+  }
+  coords 1709.285 8.156 1379.927
+  angleY -72.088
+  {
+   GenericEntity AmbientPatrol3 : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_eGroupType FIRETEAM
+      m_bIsVehicleGroup 1
+     }
+    }
+    coords -4.745 -0.083 7.282
+    angleY 72.088
+    {
+     $grp SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
+      {
+       coords 18.738 0.053 3.722
+       m_fPriorityLevel 32
+      }
+      {
+       coords 355.554 0.083 92.555
+       m_fPriorityLevel 32
+      }
+      {
+       coords 517.109 0.083 137.997
+       m_fPriorityLevel 32
+      }
+      {
+       coords 500.987 0.083 280.949
+       m_fPriorityLevel 32
+      }
+      {
+       coords 280.927 0.083 235.311
+       m_fPriorityLevel 32
+      }
+      {
+       coords -798.516 0.327 1406.161
+       m_fPriorityLevel 32
+      }
+     }
+    }
+   }
+  }
+ }
+ EnemyCivVicSpawn4 {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_aIncludedEditableEntityLabels {
+     36 50 13
+    }
+    m_aExcludedEditableEntityLabels {
+     51 52 26 29
+    }
+    m_bRequireAllIncludedLabels 1
+    m_bIsVehiclePatrol 1
+   }
+   SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
+    "faction affiliation" "CIV"
+   }
+  }
+  coords 3478.793 10.197 2003.9
+  angleY -72.088
+  {
+   GenericEntity AmbientPatrol4 : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_eGroupType FIRETEAM
+      m_bIsVehicleGroup 1
+     }
+    }
+    coords -4.745 -0.083 7.282
+    angleY 72.088
+    {
+     SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
+      coords 18.738 0.053 2.351
+      m_fPriorityLevel 32
+     }
+    }
+   }
+  }
+ }
+ EnemyCivVicSpawn5 {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_aIncludedEditableEntityLabels {
+     36 50 13
+    }
+    m_aExcludedEditableEntityLabels {
+     51 52 26 29
+    }
+    m_bRequireAllIncludedLabels 1
+    m_bIsVehiclePatrol 1
+   }
+   SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
+    "faction affiliation" "CIV"
+   }
+  }
+  coords 2319.997 8.156 2356.582
+  angleY -72.088
+  {
+   GenericEntity AmbientPatrol6 : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_eGroupType FIRETEAM
+      m_bIsVehicleGroup 1
+     }
+    }
+    coords -4.745 -0.083 7.282
+    angleY 72.088
+    {
+     $grp SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
+      {
+       coords 7.725 0.053 5.449
+       m_fPriorityLevel 32
+      }
+      {
+       coords 26.021 0.083 -167.467
+       m_fPriorityLevel 32
+      }
+      {
+       coords -99.473 0.083 -180.091
+       m_fPriorityLevel 32
+      }
+      {
+       coords -147.955 0.08 -1.316
+       m_fPriorityLevel 32
+      }
+     }
+    }
+   }
+  }
+ }
+}
